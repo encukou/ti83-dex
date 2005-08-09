@@ -1,0 +1,12 @@
+*.o
+*.sym
+*.lst
+*.map
+*.wsp
+*.ld
+*.83d
+*.clc
+*.key
+Wappsign Log.html
+*.8xk
+*.hex
