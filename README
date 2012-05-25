@@ -1,0 +1,132 @@
+All 386 pokémon in the palm of your hand!
+
+This is a TI-83+ pokédex I made back in 2005. By now, nobody really knows how
+it works. It should compile somehow and run on some version of the TI-83+
+firmware. No guarantees.
+It may take two tries to launch it properly once it's in the device.
+
+
+If you do get it to run, here's a small manual:
+
+In this app, you don't have to press modifiers before keys. For example, the
+"9" key will act as "9" or "Q" depending on the situation. You can use the
+"MODE" key as "QUIT" without pressing "2ND" first.
+
+On the landing page, press UP. (The "help" option doesn't work.) This will get
+you to the [select] page. Press ENTER to go to Abra's page.
+
+Once you do this, the app is unlocked and all the global keys will work:
+
+** global keys **
+
+The blue keys just below the screen switch modes:
+    Y=     [poké] (press again for [item/ability], and again to go back)
+    WINDOW [move]
+    ZOOM   [select]
+    TRACE  [move list]
+    GRAPH  [stat calculator]
+
+MODE will quit the app (the key has a Quit label in yellow, but there's no need
+to press 2ND to get this functionality)
+
+
+** [poké] screen **
+
+Shows the currently selected monster. On the first line we have its name
+and numbers in several numbering schemes (H=Hoenn, J=Johto, N=National).
+The second line shows the type(s), male(^)/female(+) ratio, and size in meters.
+Third line: base HP (+effort yield if any), breeding group IDs, weight in kg
+Fourth line: base Attack (+eff yield), color, XP to level 100
+Fifth: base Defense (+eff yield), evolution info
+Sixth: base Speed (+eff yield), capture rate
+Seventh: base Sp.Atk (+eff yield), base friendliness
+Eighth: base Sp.Def (+eff yield), egg hatching speed
+The last two lines show available abilities.
+There's a crude picture to the right side of the screen.
+
+UP and DOWN scroll through the 'dex.
+Letter keys recall entries you have stored on the [select] screen.
+Pressing Y= again will show the [item/ability] screen.
+ENTER will go to [select]
+
+
+** [item/ability] screen **
+
+Shows the available items in various versions (there are either two slots,
+common and rare, separated by /, or a single "100%" slot).
+The bottom half of the screen provides some detail on available abilities.
+
+Keys do the same as on the [poké] screen, except Y= returns to [poké].
+
+
+** [move] screen **
+
+Shows info about the currently selected move. (Note that the current index is
+shared between [poké] and [move]; scrolling through one will affect the other)
+
+First line has the name, number, [P]hysical/[S]pecial, and type.
+(Note: physical/special is based on the type. This is gen. III.)
+PP is displayed in a little box thingy, along with how much more a PP UP gives.
+
+Left side of screen:
+    PoWeR, ACCuracy, SPeeD rank
+    Target (useful for 2v2 battles)
+    Flags: CONTact, brightPoWDeR, king's ROCK, SouND
+    and three other flags named C4, C5, C6
+
+Right side of screen has the effect chance (in %), effect number, and even an
+attempt at a description of the effect.
+
+The bottom of the screen houses Contest info: Appeal, Jam, type and effect
+
+The UP and DOWN keys scroll, letter keys recall moves stored on the [select]
+screen, ENTER will go to [select].
+
+
+** [select] screen **
+
+Use the letter keys (the ones with the green A-Z, no need to press ALPHA before
+the key) to input a name of a monster or move. Then, press ENTER to go to its
+page. DEL acts as backspace. CLEARS clears your input and shows the initial
+help.
+UP and DOWN scroll through the list.
+
+You can also use special sequences with "Θ" (the 3 key) to select by number:
+NΘ123 will go to #123 in National Dex (Scyther)
+JΘ123 will go to #123 in Johto Dex (Snubbul)
+And similarly for HΘ (Hoenn), GΘ (GBA internal), XΘ (TI-83-dex internal),
+MΘ (move number). If in doubt t's all there on the initial screen.
+
+Press the "X,T,Θ,n" key followed by a letter to "store" the currently selected
+item for quick access later. (Note that the app doesn't remember if you stored
+a pokémon or a move. It will just assign the index.)
+
+
+** [move list] screen **
+
+Shows learnable moves of the currently selected monster.
+
+There are four tabs here: Level-up, Tutors, Machine, Breed. The currently
+selected one is spelled out in the second line. Just before that, the others'
+initial letters appear. These correspond to the ALPHA, X,T,Θ,n and STAT keys.
+Press the corresponding key to switch tabs.
+
+The UP and DOWN keys select moves from the list; ENTER wil take you to the
+selected move.
+LEFT and RIGHT switch pages in case there are more moves that can fit;
+a little scrollbar/page info is shown at the top of the screen.
+Letter keys load a pokémon stored on the [select] screen.
+
+The DEL key switches to a different pokémon. I don't know how this different
+pokémon is selected.
+
+** [stat calculator] screen **
+
+A stat calculator for the currently selected pokémon.
+
+Use the arrow keys to navigate, and the number keys to enter numbers in the
+DV and EL columns.
+In the P column, use plus/minus to select a nature, or scroll to the Nature row
+and use letter keys and arrows.
+The resulting stat appears to the right.
+You can also enter the level.
